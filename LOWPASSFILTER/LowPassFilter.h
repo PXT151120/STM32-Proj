@@ -9,3 +9,5 @@ typedef struct digitalLowPassFilter
 
 #define PI          3.14159265359
 #define Omega(x)    (2*PI*x)
+
+double LowPassFilter(double, double, double, double, double);
